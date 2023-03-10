@@ -46,7 +46,7 @@ nav{
     justify-content: space-evenly;
 }
 .social img{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 100%;
     width: 35px;
     transition: 0.4s;
