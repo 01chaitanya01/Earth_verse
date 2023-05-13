@@ -572,14 +572,15 @@ footer{
         flex-direction: column;
         justify-content: space-between;
         height: 80vh;
-        border: 2px solid rgb(141, 231, 141);
+        border: 0px solid rgb(141, 231, 141);
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 15px;
+        padding: 0;
     }
     .intern_image img{
         align-items: center;
         width: 150px;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 25px;
         border-radius: 100%;
     }
     .intern_info{
