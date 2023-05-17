@@ -476,3 +476,118 @@ html{
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<============project========================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,footer>>>>>>>>>>>>>>>>>>>>>>>>../ */
+
+footer{
+    background-color: rgb(141, 231, 141);
+    display: flex;
+}
+.foot_info{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.foot_info p{
+    display: none;
+}
+.foot_info img{
+    width: 130px;
+}
+.foot_text{
+    padding: 30px;
+    font-size: 20px;
+    width: 250px;
+}
+.foot_links{
+    padding: 10px 0 0 0;
+}
+
+@media(max-width:850px){
+    .foot_info{
+        display: inline;
+        padding: 2px;
+        align-items: center;
+        width: 60%;
+    }
+    .foot_info h1{
+        font-size: 20px;
+    }
+    .foot_info p{
+        display: inline;
+        font-size: 15px;
+    }
+    .foot_text{
+        display: none;
+    }
+    .foot_info img{
+        width: 50px;
+    }
+    footer{
+        background-color: rgb(141, 231, 141);
+        /* display: inline; */
+    }
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,footer>>>>>>>>>>>>>>>>>>>>>>>>../ */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<intership>>>>>>>>>>>>>>>>>>>>>>>........... */
+
+
+.internship_page{
+    width: 60%;
+    margin: 140px 0% 20px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    border: 2px solid rgb(141, 231, 141);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+.intern_image img{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    width: 150px;
+    /* padding: 10px; */
+    margin: 0 0 0 40px;
+    border-radius: 100%;
+}
+.intern_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+}
+.high{
+    font-weight: bold;
+}
+@media(max-width:850px)
+{
+    .internship_page{
+        width: 100%;
+        margin: 100px 0% 20px 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+        border: 0px solid rgb(141, 231, 141);
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 0;
+    }
+    .intern_image img{
+        align-items: center;
+        width: 150px;
+        margin: 0 0 0 25px;
+        border-radius: 100%;
+    }
+    .intern_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 40px 0 40px;
+    }
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<intership>>>>>>>>>>>>>>>>>>>>>>>........... */
